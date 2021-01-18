@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    /*    transition: 0.3s;*/
+}
+
+.navigation_part {
+    background-color: #061413;
+}
+
+.container {
+    width: 1140px;
+    margin: 0px auto;
+}
+
+.navigation {
+    padding-top: 50px;
+}
+
+.navigation .logo {
+    width: 18%;
+}
+
+.navigation .menu {
+    width: 82%;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    float: left;
+    margin: 0px 27px;
+    padding-top: 18px;
+}
+
+.menu ul li:not(:last-child) a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.menu ul li:not(:last-child):hover a {
+    color: #fa6c39;
+
+}
+
+.menu ul li:not(:last-child) a::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 2px;
+    top: 100%;
+    left: 50%;
+    background-color: #fe2359;
+    transition: 0.5s;
+    transform: translateX(-50%);
+    opacity: 0;
+
+}
+
+.menu ul li:not(:last-child):hover a::after {
+    width: 100%;
+    opacity: 1;
+}
+
+.menu ul li:last-child a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    transition: 0.4s;
+    padding: 18px 32px;
+    background-image: linear-gradient(to right, #fa7236, #ff0566);
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.menu ul li:last-child a:hover {
+    background-image: linear-gradient(to right, #ff0566, #fa7236);
+}
+
+.menu ul li:last-child a img {
+    height: 11px;
+    margin-left: 5px;
+}
+
+.text {
+    background-color: #061413;
+}
+
+.web h1 {
+    font-size: 62px;
+    font-weight: 100;
+    padding-top: 160px;
+    line-height: 72px;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, #ff0566, #fa7236);
+}
+
+.web p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+    margin: 45px 0 140px 0;
+}
+
+.textimg {
+    z-index: 99;
+    position: relative;
+}
+
+form {
+    position: relative;
+}
+
+form input {
+    width: 100%;
+    padding: 28px 215px 28px 35px;
+    border-radius: 50px;
+}
+
+form button {
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    padding: 20px 30px;
+    border-radius: 50px;
+    background-color: #fc3d4d;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    transition: 0.4s;
+}
+
+form button:hover {
+    background-color: #ab9e9d;
+    color: #fc3d4d;
+
+}
+
+.cost {
+    margin-top: 32px;
+    margin-bottom: 115px;
+
+}
+
+.cost span:not(:last-child) {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-right: 10px;
+
+}
+
+.cost span:last-child {
+    color: #bf3240;
+    padding-bottom: 5px;
+    border-bottom: dotted;
+    transition: 0.4s;
+    cursor: pointer;
+
+
+}
+
+.cost span:last-child:hover i {
+    margin-left: 5px;
+}
+
+.image {
+    position: relative;
+}
+
+.image img {
+    position: absolute;
+    content: '';
+    width: 180%;
+    top: 145px;
+    right: -134px;
+    z-index: 1;
+}
+
+
+/*========= price part start========= */
+
+.price_part {
+    background-color: #0a121c;
+
+}
+
+.col_1_of_4 .single_part {
+    padding: 32px 45px 46px 40px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    transition:0.45s;
+}
+
+.col_1_of_4 .single_part:hover{
+    transform: translateY(-4px) scale(1.01);
+    
+}
+.bg {
+    background-image: linear-gradient(140deg, #049ec0, #04d2d4);
+}
+
+.bgone {
+    background-image: linear-gradient(140deg, #fa7236, #ff0e62);
+}
+
+.bgtwo {
+    background-image: linear-gradient(140deg, #7d4894, #5c27fe);
+}
+
+.bgthree {
+    background-image: linear-gradient(140deg, #f49913, #ff7b02);
+}
+
+.price_img img {
+    margin-left: -125px;
+    margin-top: -35px;
+}
+.text_part{
+    margin-left: 17px;
+}
+.text_part h2 {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.text_part h3 {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.text_part h4 {
+    font-size: 50px;
+    line-height: 24px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.text_part h4 span {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.list {
+    min-height: 175px;
+    margin-bottom: 50px;
+}
+
+.list ul li:first-child {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.list ul li:not(first-child) {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.single_part a {
+    padding: 14px 36px;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 50px;
+    transition: 0.4s;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+.single_part a:hover{
+    background-color: #fff;
+    color:#fc3d4d;
+}
+.call{
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+.call p{
+   font-size:18px;
+    line-height: 40px;
+    font-weight: 400;
+    color:#8998af;
+}
+.call h4{
+   font-size:24px;
+    line-height: 40px;
+    font-weight: 400;
+    color:#8998af;
+}
+.call span{
+    color:#fc3d4d;
+   
+}
+
+/*========= price part end========= */
