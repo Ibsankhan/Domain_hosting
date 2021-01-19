@@ -128,6 +128,7 @@ form input {
     width: 100%;
     padding: 28px 215px 28px 35px;
     border-radius: 50px;
+    outline: none;
 }
 
 form button {
@@ -319,7 +320,273 @@ form button:hover {
 }
 .call span{
     color:#fc3d4d;
-   
 }
 
 /*========= price part end========= */
+
+
+
+/* =================== plan_part start =================== */
+
+.plan_part{
+    background-color:#0d1023;
+}
+.plan_part h2{
+    color:#fff;
+    font-size:20px;
+    line-height: 24px;
+    font-weight:400;
+    margin-bottom: 32px;
+}
+.single{
+    background-color:#262839;
+    margin-bottom: 15px;
+    padding: 7px 0;                 
+}
+.single i:first-child{
+    color:#04aec6;
+    height: 40px;
+    width:40px;
+    border-radius:50%;
+    text-align: center;
+    background-color:#353848;
+    line-height:40px;
+    font-size:20px;
+    margin-left: 7px;
+    margin-right: 13px;
+}
+.single span{
+    color:#8998af;
+    font-size: 15px;
+    line-height:40px;
+    font-weight: 400;
+    margin-right: 116px;
+}
+.single i.icon_check{
+    color:#34b358;
+    line-height:40px;
+    font-size:14px;
+}
+.diff_feature{
+    margin-top: 125px;
+}
+.diff_feature p{
+    font-size: 12px;
+    font-weight:  900;
+    line-height: 24px;
+    letter-spacing: 5px;
+    color:#fc3d4d;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+.diff_feature h1{
+    font-size:34px;
+    line-height: 24px;
+    color:#fff;
+    font-weight: 300;
+    margin-bottom: 36px;
+}
+.diff_feature h6{
+    font-size:16px;
+    line-height: 28px;
+    color:rgba(255,255,255,0.5);
+    font-weight: 400;
+    margin-bottom:82px;
+}
+
+/* =================== plan_part end =================== */
+
+/* ================= service part start ================= */
+
+.service_part{
+    background-color:#110e2b;
+}
+.single_service{
+    background-color:#211f38;
+    position: relative;
+    padding: 22px 30px 24px 20px;
+    margin-bottom: 38px;
+    border-radius: 3px;
+}
+.single_service  .icon_img{
+    width:35%;
+    background-image: url(../image/icon_bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.single_service  .icon_img i{
+    font-size:48px;
+    background-clip: text;
+    color:transparent;
+      -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom, #e7105d , #fa6a3a);
+    position: absolute;
+    top: 38px;
+    left: 37px;
+}
+.single_service  .text_right{
+    width:65%;
+}
+
+.single_service  .text_right h3{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color:#fff;
+    margin-bottom: 16px;
+}
+.single_service  .text_right p{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color:#8998af;
+}
+/* ================= service part end ================= */
+
+
+/* ================= Serviece part start ================= */
+
+.map_part{
+    background-color: #140b2e;
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+.map_part .written{
+margin-bottom: 60px;
+    
+}
+.map_part .written p{
+    font-size:12px;
+    line-height: 24px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    word-spacing: 12px;
+    color: #fc3d4d;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.map_part .written h1{
+    font-size:34px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom:50px;
+   
+}
+
+/* ================= Serviece part end ================= */
+/* ================= data center part start================= */
+
+.data_center_part{
+    background-color: #170b31;
+    padding-bottom: 70px;
+}
+.text_us p{
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 900;
+    color: #fc3d4d;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.text_us span{
+    color: #fc3d4d;
+   
+}
+.text_us h2{
+   font-size:34px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom:50px;
+   
+}
+.text_us h6{
+   font-size:16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.5);
+    margin-bottom:55px;
+   
+}
+.multiple_data h1{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+.multiple_data p{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.5);
+}
+
+.multiple_data .line{
+    width: 100px;
+    height: 2px;
+    background-color: #fc3d4d;
+    margin:27px 0px;
+}
+.country{
+    margin-top: 60px;
+    color: #8d8797;
+}
+.country .map{
+    margin-right: 40px;
+}
+.country .uui{
+    margin-right: 10px;
+}
+.country ul li span{
+    margin-right: 10px;
+}
+/* ================= data center part end ================= */
+
+
+/* ================= speed part start ================= */
+.speed_part{
+    background-color: #1b0b2f;
+    padding-bottom: 75px;
+}
+.speed_text_one h2 {
+  line-height: 24px;
+    color: #fff;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+
+.speed_text_one .line{
+    width: 100px;
+    height: 2px;
+    background-color: #fc3d4d;
+    margin:27px 0px;
+}
+.speed_text_one p{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.5);
+}
+.check{
+    margin-top: 50px;
+}
+.check_one{
+    margin-right: 15px;
+}
+.check ul li{
+    color:rgba(255,255,255,0.5);
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.check ul li span{
+    margin-right: 10px;
+}
+
+/* ================= speed part end ================= */
